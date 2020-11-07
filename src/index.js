@@ -26,3 +26,8 @@ return a+b
 }
 
 console.log(sum(1)(2));
+
+const person={name:"Ziza"};
+const copy=Object.assign(...person,name="Janice")
+console.log(copy)
+
